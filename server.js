@@ -1,7 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');// allows us to create global variable
 const colors = require('colors');
-const morgan = require('morgan');// to do login
+const morgan = require('morgan');// logger
 const connectDB = require('./config/db.js')
 
 
