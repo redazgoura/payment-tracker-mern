@@ -17,8 +17,6 @@ const AddTransaction = () => {
     }
 
     addTransaction(newTransaction);
-
-    //clear inputs after making a transaction
     setText("");
     setAmount("");
   }
